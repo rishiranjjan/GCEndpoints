@@ -25,7 +25,7 @@ public class DemoApplication {
 	}
 	@GetMapping("/hello anamika")
 	public String hello(){
-		return "Hello World! anamaik";
+		return "Hello World! Anamaik";
 	}
 	    @Bean
     public Docket api(ServletContext servletContext) { 
