@@ -23,9 +23,9 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
-	@GetMapping("/hello")
+	@GetMapping("/hello anamika")
 	public String hello(){
-		return "Hello World!";
+		return "Hello World! Anamaik";
 	}
 	    @Bean
     public Docket api(ServletContext servletContext) { 
